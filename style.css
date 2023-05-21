@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+/* font-family: 'Barlow', sans-serif; */
+/* font-family: 'Manrope', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* border: none; */
+    /* outline: none; */
+    scroll-behavior: smooth;
+}
+
+:root{
+    --bg-color: #3D087B;
+    --bg-secondary: #8E53F0;
+    --bg-color-time: #F6E2FF;
+    --text-secondary: #8A11BF;
+    --text-primary: #ffffff;
+    --font-family-manrope: 'Manrope', sans-serif; 
+    --font-family-barlow: 'Barlow', sans-serif;;  
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+.contanier{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: start;
+    border: 2px solid green;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 50px;
+}
+
+
+/* left contanier Style */
+.main-ContanierLeft{
+    border: 2px solid green;
+    /* width: 38vw; */
+}
+
+.Alarm-conatnier{
+    background-color: var(--text-primary);
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+}
+
+.card label{
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-left: 20px;
+    color: var(--bg-color);
+    opacity: 1;
+    width: 160px;
+    font-family: var(--font-family-manrope);
+    font-weight: 200;
+}
+
+#Wakup{
+    color: var(--bg-color);
+    display: inline-block;
+    margin-left: 30px;
+    width: 230px;
+    padding: 10px;
+    outline: none;
+    text-align: left;
+    word-spacing: 2.5px;
+    border-radius: 4px;
+}
+
+.empty{
+    height: 20px;
+    border-left: 1px solid black;
+    margin: 10px 0px;
+    margin-left: 18px;
+}
+
+
+/* Card2 Style  */
+.card2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    padding: 20px;
+    color: var(--text-primary);
+    font-size: 0.8rem;
+    font-family: var(--font-family-barlow);
+    font-weight: 900;
+    background-color: #5F0089;
+    border: 1px solid #5F0089;
+    border-radius: 10px;
+}
+
+/* Card3 Style  */
+.card3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn-1{
+    width: 250px;
+    height: 40px;
+    background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 4px;
+    opacity: 1;
+    font-family: var(--font-family-manrope);
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.childcardRight{
+    background-color: #5F0089;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: var(--font-family-manrope);
+    font-size: 15px;
+    color: #F25CFE;
+    opacity: 1;
+    text-align: left;
+}
+
+
+/* Left contanier style End  */
+
+
+
+/* right contanier style  Start */
+.main-ContanierRight{
+    border: 2px solid green;
+    /* width: 40vw; */
+}
+
+.last-box{
+    width: 300px;
+    height: 15px;
+    background-color: var(--text-secondary);
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    top: 115px;
+    opacity: 0.7;
+    z-index: 1;
+}
+.middle-box{
+    width: 400px;
+    height: 15px;
+    background-color: #f1ededaa;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    top: 103px;
+    opacity: 0.9;
+    z-index: 4;
+}
+
+.Timecard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--text-primary);
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 555;
+    margin-bottom: 30px;
+}
+
+.time1{
+    text-align: center;
+    width: 90px;
+    margin: 0px !important;
+    font-family: var(--font-family-manrope);
+    color: var(--bg-color);
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 1;
+
+}
+
+.Time{
+    background-image: url(./Assets/timeline.svg);
+    text-align: center;
+    width: 70px;
+    height: 80px;
+    font-family: var(--font-family-manrope);   
+    font-size: 35px;
+    color: #8A11BF;
+    border-radius: 3px;
+}
+
+.min-font{
+    font-size: 18px;
+}
+
+.dots{
+    font-size: 35px;
+    color: #8A11BF;
+}
+
+.Zone{
+    background-image: url(./Assets/AM_svg.svg);
+    text-align: center;
+    width: 70px;
+    height: 80px;
+    font-family: var(--font-family-manrope);   
+    font-size: 25px;
+    color: var(--text-primary);
+    border-radius: 3px;
+    line-height: 80px;
+    margin-left: 10px;
+}
+
+.Timecard2{
+    width: 500px;
+    height: 90px;
+    background-color: var(--text-primary);
+    font-family:var(--font-family-barlow) ;
+    text-align: center;
+    font-size: 0.7rem;
+    color: var(--bg-secondary);
+    line-height: 90px;
+    border-radius: 10px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}

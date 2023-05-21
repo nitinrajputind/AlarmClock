@@ -1,0 +1,12 @@
+<svg id="wake_up" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3476" data-name="Rectangle 3476" width="34" height="34" fill="#3d087b" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="wake_up-2" data-name="wake_up" clip-path="url(#clip-path)">
+    <g id="Group_5144" data-name="Group 5144" transform="translate(4 2)">
+      <path id="Path_16782" data-name="Path 16782" d="M22,16a6,6,0,1,1-6-6A6,6,0,0,1,22,16ZM16,8a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V7A1,1,0,0,0,16,8Zm0,16a1,1,0,0,0-1,1v4a1,1,0,0,0,2,0V25A1,1,0,0,0,16,24Zm13-9H25a1,1,0,0,0,0,2h4a1,1,0,0,0,0-2ZM8,16a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H7A1,1,0,0,0,8,16Zm14-5a1,1,0,0,0,.71-.29l4-4A1,1,0,0,0,25.3,5.3l-4,4A1,1,0,0,0,22,11ZM9.29,10.71A1,1,0,0,0,10.7,9.3l-4-4A1,1,0,0,0,5.29,6.71Zm0,10.59-4,4A1,1,0,1,0,6.7,26.71l4-4A1,1,0,0,0,9.29,21.3Zm13.41,0a1,1,0,0,0-1.41,1.41l4,4A1,1,0,0,0,26.7,25.3Z" transform="translate(-2 -2)" fill="#3d087b"/>
+    </g>
+  </g>
+</svg>
